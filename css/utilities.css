@@ -1,81 +1,108 @@
-/*Global*/
 *{
-	font-family: "ProxnovaLight";
+    font-family: "proximanova-light-webfont";
+}
+
+/*fuente*/
+@font-face{
+    font-family: proximanova-bold-webfont;
+    src: url(../fonts/proximanova/proximanova-bold-webfont.ttf);
+}
+@font-face{
+    font-family: proximanova-light-webfont;
+    src: url(../fonts/proximanova/proximanova-light-webfont.ttf);
+}
+@font-face{
+    font-family: proximanova-regitalic-webfont;
+    src: url(../fonts/proximanova/proximanova-regitalic-webfont.ttf);
+}
+@font-face{
+    font-family: proximanova-regular-webfont;
+    src: url(../fonts/proximanova/proximanova-regular-webfont.ttf);
+}
+@font-face{
+    font-family: proximanova-Semibold-webfont;
+    src: url(../fonts/proximanova/Proximanova-Semibold.otf);
+}
+
+/*Color de textos*/
+.text-blue{
+	color: #002366;
+}
+.text-lightblue{
+	color: #179AD6;
+}
+.text-grayheavy{
+	color: #606060;
+}
+.text-graymedium{
+	color: #979797;
+}
+.text-graylight{
+	color: #F6F6F6;
+}
+.text-white{
+	color: white;
+}
+
+/*Color de backgrouds*/
+.bg-lightblue{
+	background-color: #179AD6;
+}
+.bg-blue{
+	background-color: #002366;
+}
+.bg-grayheavy{
+	background-color: #606060;
+}
+.bg-graymedium{
+	background-color: #979797;
+}
+.bg-graylight{
+	background-color: #F6F6F6;
+}
+.bg-white{
+	background-color: white;
+}
+
+/*tamaño de títulos*/
+.h1{
+	font-size: 50px;
+	font-family: "proximanova-regular-webfont";
+}
+.h2{
+	font-size: 45px;
+	font-family: "proximanova-light-webfont";
+}
+.h3{
+	font-size: 30px;
+	font-family: "proximanova-light-webfont";
+}
+.txt-body{
+	font-size: 20px;
+	font-family: "proximanova-regular-webfont";
+
+}
+.txt-rcdo{
+	font-size: 14px;
+	text-align: center;
+	font-family: "proximanova-light-webfont";
+}
+.txt-qt{
 	font-size: 24px;
+	font-family: "proximanova-light-webfont";
 }
-
-@font-face{
-	font-family: ProxnovaLight;
-	src: url(../fonts/proximanova-light-webfont.ttf);
-}
-@font-face{
-	font-family:ProxnovaRegular;
-	src: url(../fonts/proximanova-regular-webfont.ttf);
-}
-@font-face{
-	font-family: ProxnovaRitalic;
-	src: url(../fonts/proximanova-regitalic-webfont.ttf);
-}
-@font-face{
-	font-family: PronovaSemibold;
-	src: url(../fonts/proximanova-Semibold-webfont.ttf);
-}
-
-@font-face{
-	font-family: ProxnovaBold;
-	src: url(../fonts/proximanova-bold-webfont-webfont.ttf);
-}
-
-
-/* Shortcuts */
-
-.pd-0{
-	padding: 0;
-}
-.pt-5{
+.pd-tp-5{
 	padding-top: 5%;
 }
-.pb-5{
-	padding-bottom: 5%;
+.pd-0{
+	padding: 0%;
 }
-.mg-0{
-	margin: 0;
+.txt-right{
+	text-align: right;
 }
 .w-100{
 	width: 100%;
 }
-.lh{
-	line-height: 1.5;
-}
-.text-center{
-	text-align: center;
-}
-.text-left{
+.txt-left{
 	text-align: left;
-}
-.text-blue{
-	color: #002366;
-}
-.text-skyblue{
-	color: #179AD6;
-}
-.text-plomo{
- color: #606060;
-}
-.text-gris{
- color: #979797;
-}
-.text-blanco{
-	color:#F6F6F6;
-}
-.a-none-decoration{
-	text-decoration: none;
-}
-.bg-gray{
-	background-color: rgb(244, 244, 244);
-}
-.bg-img-block{
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
 }

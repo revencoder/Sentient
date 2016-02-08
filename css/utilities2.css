@@ -1,0 +1,115 @@
+
+*{
+	font-family:"ProxnovaLight";
+	font-size: 20px;
+}
+
+@font-face{
+	font-family:ProxnovaLight;
+	src: url(../fonts/proximanova/proximanova-light-webfont.ttf);
+}
+@font-face{
+	font-family:ProxnovaRegular;
+	src: url(../fonts/proximanova/proximanova-regular-webfont.ttf);
+}
+@font-face{
+	font-family:ProxnovaRitalic;
+	src: url(../fonts/proximanova/proximanova-regitalic-webfont.ttf);
+}
+@font-face{
+	font-family:PronovaSemibold;
+	src: url(../fonts/proximanova/ProximaNova-Semibold-webfont.ttf);
+}
+
+@font-face{
+	font-family:ProxnovaBold;
+	src: url(../fonts/proximanova/roximanova-bold-webfont-webfont.ttf);
+}
+
+h1{
+	font-family:"ProxnovaRegular";
+	font-size: 50px;
+}
+
+h2{
+	font-family:"ProxnovaLight";
+	font-size: 45px;
+}
+
+h3{
+	font-family:"ProxnovaLight";
+	font-size: 30px;
+	font-weight: normal;
+}
+
+
+p.cuerpo{
+	font-family:"ProxnovaRegular";
+	font-size: 18px;
+}
+
+p.recuadro{
+	font-family:"ProxnovaRegular";
+	font-size: 14px;
+	text-align: center;
+}
+
+p.quote{
+	font-family:"ProxnovaLight";
+	font-size: 22px;
+
+}
+
+/* Shortcuts*/ 
+
+.pd-0{
+	padding: 0%;
+}
+.pt-5{
+	padding-top: 5%;
+}
+.pb-5{
+	padding-bottom: 5%;
+}
+.mg-0{
+	margin: 0;
+}
+.w-100{
+	width: 100%;
+}
+.lh{
+	line-height: 1.5;
+}
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+.text-blue{
+	color: #002366;
+}
+.text-skyblue{
+	color: #179AD6;
+}
+.text-plomo{
+ color: #606060;
+}
+.text-gris{
+ color: #979797;
+}
+.text-blanco{
+	color:#F6F6F6;
+}
+.a-none-decoration{
+	text-decoration: none;
+}
+.bg-gray{
+	background-color: rgb(244, 244, 244);
+}
+.bg-img-block{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+*/

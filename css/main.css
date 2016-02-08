@@ -1,0 +1,186 @@
+
+body {
+    padding: 30px 0px 0px 0px;
+    font-family:ProxnovaLight;
+}
+p{
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.4
+}
+/*
+.navbar {
+    border-bottom:1px solid #e7e7e7;
+}
+.navbar-default {
+    background-color: white;
+    border-color: #e7e7e7;
+    transform:translateY(-24px);
+}
+.navbar-brand{
+	padding: 0;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #002366;
+}
+*/
+section.sim{
+    background: url("../img/hero-image.jpg") no-repeat; 
+    background-size: cover;
+}
+h2.text-blanco{
+    margin-top: 11%;
+    line-height: 140%;
+}
+.flecha{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.parrafo{
+    padding: 5% 18% 0% 18%;
+}
+p.quote{
+    line-height: 180%;
+}
+h3.text-center{
+    margin-top: 2%;
+    padding: 2% 20% 2% 20%;
+    font-size: 25px;
+}
+.titulos{
+    font-size: 25px;
+}
+.boxes{
+    padding: 0% 10%;
+}
+.borde{
+    border:1px solid #dfdfdf; 
+    padding: 5%;
+}
+#contactus{
+    background: url("../img/background-contac-us.jpg") no-repeat; 
+    background-size: cover;
+    height: 500px;
+    margin-top: 5%;
+}
+.contacto{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.pardos{
+   margin-top: 5%;
+}
+.parra{
+    font-size: 18px;
+}
+.medida{
+    margin: 5px;
+    width: 300px;
+    height: 40px
+}
+.enviar{
+    background-color: #179AD6;
+    border-radius: 2px 2px 2px 2px;
+    border-style:none;
+    font-size: 18px;
+    padding:0.5% 6% 0.5% 6%;
+    color:white;
+    margin-top: 2%;
+}
+
+/*@Media Queries*/
+
+@media screen and (max-width:480px){
+
+    .img-logo{
+        width: 100%;
+        display: inline-block;
+        position: relative;
+        left: 50%;
+    }
+    .raya{
+        visibility: hidden;
+    }
+    .borde {
+        margin-top: 5%;
+    }
+    .container-md {
+        width: 968px;
+        padding-left: 14px;
+        padding-right: 14px;
+        margin: 0 auto;
+    }
+    .minh-280 {
+        min-height: 280px !important;
+    }
+    .pv-28 {
+        padding-top: 28px;
+        padding-bottom: 28px;
+    }
+    #contactus{
+        background-image: none ;
+        background-color:#F6F6F6;
+    }
+    .contacto{
+        color:#002366 !important;
+    }
+    .parra{
+        color:#979797 !important;
+    }
+    .enviar{
+        background-color: #179AD6;
+        border-radius: 2px 2px 2px 2px;
+        border-style:none;
+        font-size: 18px;
+        padding:2% 33%;
+        color:white;
+        margin-top: 2%;
+    }
+
+}
+
+@media only screen and (max-width:768px){
+    .container-xs,
+    .container-sm,
+    .container-md
+    {
+        padding-left: 14px;
+        padding-right: 14px;
+        margin: 0 auto;
+    }
+    .container-xs{
+        width: 508px;
+    }
+
+    .container-sm{
+        width: 748px;
+    }
+
+    .container-md{
+        width: 968px;
+    }
+    .raya{
+        visibility: hidden
+    }
+
+}
+
+@media only screen and (max-width:480px){
+    .container-xs,
+    .container-sm,
+    .container-md
+    {
+        width: 100%;
+        padding-left: 14px;
+        padding-right: 14px;
+        margin: 0 auto;
+    }
+    .raya{
+        visibility: hidden
+    }
+
+
+}
+
+
+

@@ -1,0 +1,31 @@
+
+/*header*/
+.navbar {
+    border-bottom:1px solid #e7e7e7;
+   
+}
+.navbar-default {
+    background-color: white;
+    border-color: #e7e7e7;
+    transform:translateY(-24px);
+}
+.navbar-brand{
+	padding: 0;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #002366;
+}
+
+/*footer*/
+footer{
+	border-top: 1px solid #979797;
+	padding-top: 2%;
+	line-height: 2.5;
+}
+footer a {
+	text-decoration: none;
+	color: #606060;
+}
+footer p{
+	font-size: 15px;
+}
