@@ -56,6 +56,7 @@ h3.text-center{
 .borde{
     border:1px solid #dfdfdf; 
     padding: 5%;
+    height: 250px;
 }
 #contactus{
     background: url("../img/background-contac-us.jpg") no-repeat; 
@@ -93,10 +94,12 @@ h3.text-center{
 @media screen and (max-width:480px){
 
     .img-logo{
-        width: 100%;
+        width: 180px;
+        padding-top: 7px;
         display: inline-block;
         position: relative;
         left: 50%;
+
     }
     .raya{
         visibility: hidden;
@@ -165,6 +168,7 @@ h3.text-center{
 
 }
 
+/*
 @media only screen and (max-width:480px){
     .container-xs,
     .container-sm,
@@ -178,7 +182,14 @@ h3.text-center{
     .raya{
         visibility: hidden
     }
+    .img-logo{
+        width: 180%;
+        padding-top: 7px;
+        display: inline-block;
+        position: relative;
+        left: 50%;
 
+    }
 
 }
 
