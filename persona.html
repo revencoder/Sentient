@@ -14,22 +14,26 @@
 	<link rel="stylesheet" type="text/css" href="css/menu.css">
 </head>
 <body>
-
-	<header class="menu-fixed">
+	
+	<header id="navegador">
 		<div class="container">
-			<div class="row menu-bar">
-				<a href="#" class="bt-menu"><span class="icon-menu"></span></a>	
-			</div>
-			<div class="row">
-				<div class="logo col-xs-12 col-lg-9">
-					<img src="img/logo-iconos/sentient-logo.png" alt="">
+			<div class="navbar">
+				<div class="navbar-header navbar-default">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html"><img class="img-logo" src="img/logo-iconos/sentient-logo.png"></a>
 				</div>
-				<div class=" col-lg-3 menu">
-					<a class="text-graymedium"href="">About SIM</a>
-					<span class="text-graylight">|</span>
-					<a class="text-graymedium"href="">Contact us</a>
-				</div>	
-			</div>			
+				<div class="navbar-collapse collapse" style="height:1px">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a class="navbar-texto" href="aboutus.html">About SIM </a></li>
+						<li><a class="raya" href="#">|</a></li>
+						<li><a class="navbar-texto" href="#contactus">Contact us</a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</header>
 
@@ -59,8 +63,8 @@
 
 				<div class="col-6 col-xs-12">
 					<nav>
-						<a href="#"><b>About SIM</b></a>
-						<a href="#"><b>Contact us</b></a>
+						<a href="aboutus.html"><b>About SIM</b></a>
+						<a href="index.html.#contactus"><b>Contact us</b></a>
 					</nav>
 					<div class="box-redes">
 						<img src="img/logo-iconos/facebook-icon-footer.png">

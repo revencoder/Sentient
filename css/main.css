@@ -1,29 +1,10 @@
 
-body {
-    padding: 30px 0px 0px 0px;
-    font-family:ProxnovaLight;
-}
 p{
     font-size: 20px;
     font-weight: normal;
     line-height: 1.4
 }
-/*
-.navbar {
-    border-bottom:1px solid #e7e7e7;
-}
-.navbar-default {
-    background-color: white;
-    border-color: #e7e7e7;
-    transform:translateY(-24px);
-}
-.navbar-brand{
-	padding: 0;
-}
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #002366;
-}
-*/
+
 section.sim{
     background: url("../img/hero-image.jpg") no-repeat; 
     background-size: cover;
@@ -56,6 +37,7 @@ h3.text-center{
 .borde{
     border:1px solid #dfdfdf; 
     padding: 5%;
+    height: 250px;
 }
 #contactus{
     background: url("../img/background-contac-us.jpg") no-repeat; 
@@ -74,7 +56,7 @@ h3.text-center{
     font-size: 18px;
 }
 .medida{
-    margin: 5px;
+    margin: 5px;        
     width: 300px;
     height: 40px
 }
@@ -93,10 +75,14 @@ h3.text-center{
 @media screen and (max-width:480px){
 
     .img-logo{
-        width: 100%;
+        width: 180px;
         display: inline-block;
         position: relative;
-        left: 50%;
+        left: 45%;
+    }
+    .sim{
+        padding: 30% 10%;
+        background-size: none; 
     }
     .raya{
         visibility: hidden;
@@ -164,23 +150,5 @@ h3.text-center{
     }
 
 }
-
-@media only screen and (max-width:480px){
-    .container-xs,
-    .container-sm,
-    .container-md
-    {
-        width: 100%;
-        padding-left: 14px;
-        padding-right: 14px;
-        margin: 0 auto;
-    }
-    .raya{
-        visibility: hidden
-    }
-
-
-}
-
 
 

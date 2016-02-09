@@ -1,30 +1,23 @@
 .persona{
 	padding-top: 8%;
 }
-
 .biography {
-
 	padding: 2% 16%;
 	text-align: justify;
 	font-size: 19px;
 	font-family: "proximanova-Semibold-webfont";
 	line-height: 1.8;
 	color: #606060;
-
 }
-
 .pd-1{
 	padding: 1px 1px;
 }
-
 .w-80{
 	width: 80%;
 }
-
 .mgr-2{
 	margin-right:2%;
 }
-
 
 @media screen and (max-width: 480px) {
 
@@ -37,5 +30,4 @@
 	. {
 		text-align: center;
 	}
-
 }

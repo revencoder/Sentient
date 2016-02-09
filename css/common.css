@@ -1,16 +1,28 @@
 
+a:hover, a:focus{
+	text-decoration: none !important; 
+}
+
 /*header*/
-.navbar {
-    border-bottom:1px solid #e7e7e7;
-   
+#navegador{
+	 border-bottom:1px solid gray;
+	 position: fixed;
+	 z-index: 1;
+	 background: white;
+	 width: 100%;
+}
+.nav-header{
+	background: red;
 }
 .navbar-default {
     background-color: white;
     border-color: #e7e7e7;
-    transform:translateY(-24px);
+    transform:translateY(-1px);
 }
 .navbar-brand{
+	background-color: white;
 	padding: 0;
+	border-style: none;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #002366;
