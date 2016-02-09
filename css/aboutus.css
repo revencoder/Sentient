@@ -1,28 +1,4 @@
-/* Header*/
-a:hover, a:focus{
-	text-decoration: none !important; 
-}
-.menu{
-	padding: 2% 0%;
-	text-align: right;
-	
-}
-.menu-fixed{
-	position: fixed;
-	z-index: 1;
-	background: white;
-	border-bottom: 1px solid #F6F6F6;	
-	width: 100%;
-	left: 0px;
-	top: 0px;
-}
 
-.menu span{
-	padding: 0% 10%;
-}
-.menu-bar{
-	display: none;
-}
 /*Section1*/
 .trading{
 	padding-top: 7%;
@@ -42,11 +18,13 @@ a:hover, a:focus{
 	padding: 1%;
 }
 
-/*Section2*/
+/*Section2-baner*/
 .baner{
 	background-image:url("../img/background-about-us.jpg"); 
-	padding: 2% 5%;
+	background-repeat: no-repeat;
 	background-size: cover;
+	padding: 2% 0% 10% 0%;
+	text-align: center;
 }
 .sentient{
 	padding: 4% 12%;
@@ -60,6 +38,9 @@ a:hover, a:focus{
 	background-color:#002366;
 	border-radius: 5px;
 }
+.apply{
+	padding: 5% 0%;
+}
 .btn2{
 	padding: 3% 20%;
 	background-color:#179AD6;
@@ -70,7 +51,13 @@ a:hover, a:focus{
 	padding: 0% 0% 0% 17%;
 	font-size: 30px;
 }
-
+.contacform{
+	padding-top: 5%;
+}
+.founders p {
+		margin: 0;
+		font-size: 18px;
+}
 .btn3{
 	padding: 3% 10%;
 	border: 2px solid white;
@@ -99,7 +86,9 @@ footer a {
 	text-decoration: none;
 	color: #606060;
 }
-@media screen and (max-width: 480px) {   
+
+
+@media screen and (max-width: 800px) {   
     .menu{
     	display: none;
     }
@@ -107,6 +96,17 @@ footer a {
     .trading{
 		padding-top: 20%;
 	}
+	
+	.rot-180{
+		display: block;
+		padding: 2% 48%; 
+
+	}	
+	.photos [class*="col-xs"]{
+		width: 50%;
+		margin: 2% 25%;
+	}
+
     .menu {
     	width: 80%;
     	height: 100%;

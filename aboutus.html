@@ -6,29 +6,37 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css">		
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/aboutus.css">
 	<link rel="stylesheet" type="text/css" href="css/persona.css">
 	<link rel="stylesheet" type="text/css" href="css/menu.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
 </head>
 <body>
-	<header class="menu-fixed">
+
+	<header id="navegador">
 		<div class="container">
-			<div class="row menu-bar">
-				<a href="#" class="bt-menu"><span class="icon-menu"></span></a>	
-			</div>
-			<div class="row">
-				<div class="logo col-xs-12 col-lg-9">
-					<img src="img/logo-iconos/sentient-logo.png" alt="">
+			<div class="navbar">
+				<div class="navbar-header navbar-default">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><img class="img-logo" src="img/logo-iconos/sentient-logo.png"></a>
 				</div>
-				<div class=" col-lg-3 menu">
-					<a class="text-graymedium"href="">About SIM</a>
-					<span class="text-graylight">|</span>
-					<a class="text-graymedium"href="">Contact us</a>
-				</div>	
-			</div>			
+				<div class="navbar-collapse collapse" style="height:1px">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a class="navbar-texto" href="">About SIM </a></li>
+						<li><a class="raya" href="#">|</a></li>
+						<li><a class="navbar-texto" href="index.html#contactus">Contact us</a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</header>	
 
@@ -45,7 +53,7 @@
 						<img src="img/logo-iconos/quote.png" alt="">
 					</div>
 					<div class="col-xs-12 col-lg-11 txt-qt pd-0">
-						<p>Sentient Investment Management utilizes propietary, patented artificial intelligence technologies to spur continual evolution of its investment strategies. <img class="rot-180" src="img/logo-iconos/quote.png" alt=""></p>
+						<p class="mg-0">Sentient Investment Management utilizes propietary, patented artificial intelligence technologies to spur continual evolution of its investment strategies. <img class="rot-180" src="img/logo-iconos/quote.png" alt=""></p>
 					</div>
 				</div>
 				<div class="col-xs-12 col-lg-7 txt-body text-graymedium ">
@@ -56,7 +64,7 @@
 	</section>
 
 	<section class="baner">
-		<div class="container text-center">
+		<div class="container text-center in-baner">
 			<p class="title2 text-white h2">Evolve your Career</p>
 			<a class=" btn1 h3 text-white" href="">Read all abut careers</a>
 			<p class="sentient text-white txt-qt">Sentient Investment Management offers great opportunities for the brightest mids in engineering, science and business to innovate, experiment, learn and grow in a fast-paced and challenging environment. Our team is made up of analysts, scientists and engineers with dozens of patents, awards and decades of experience<br/>in the equity and technology markets.</p>
@@ -65,15 +73,19 @@
 					<p class=" sound txt-qt">Sound like you?If so, please apply for one of the positions.</p>
 				</div>
 				<div class="col-xs-12 col-lg-4">
+					<div class="apply">	
 					<a class="btn2 text-white txt-qt"href="">Apply</a>
+					</div>
 				</div>
 			</div>
-			<div class="row ">
+			<div class="row two">
 				<div class="col-xs-12 col-lg-8 text-left text-white">
 					<p class="sound txt-qt">Please drop us a line and let us know how you might contribute to our growing team.</p>
 				</div>
 				<div class="col-xs-12 col-lg-4">
+					<div class="contacform">	
 					<a class="btn3 text-white txt-qt"href="">Contac form</a>
+					</div>
 				</div>
 			</div>	
 		</div>
@@ -97,7 +109,7 @@
 	</section>
 
 	<section class="founders bg-graylight text-center">
-		<div class="container-fluid">
+		<div class="container-fluid photos">
 			<div class="row">
 				<p class="text-center text-blue h2">Founders</p>
 			</div>	
@@ -107,9 +119,12 @@
 				<div class="col-lg-2">
 				</div>
 				<div class="col-xs-12 col-lg-2 bg-white pd-0 mgr-2">
+					
+					<a href="persona.html">
 					<img class="w-100 pd-1"src="img/foto1.jpg" alt="">
 					<p>Antonie Blondeu</p>
 					<p>Co-founder</p>
+					</a>	
 				</div>
 				<div class="col-xs-12 col-lg-2 bg-white pd-0 mgr-2">
 					<img class="w-100 pd-1"src="img/foto2.jpg" alt="">
@@ -174,7 +189,7 @@
 				<div class="col-lg-6 col-xs-12">
 					<nav>
 						<a href="aboutus.html"><b>About SIM</b></a>
-						<a href="#Contacme"><b>Contact us</b></a>
+						<a href="index.html.#contactus"><b>Contact us</b></a>
 					</nav>
 					<div>
 						<img src="img/logo-iconos/facebook-icon-footer.png">
